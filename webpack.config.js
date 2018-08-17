@@ -13,6 +13,7 @@ const ROOT = path.resolve(__dirname, 'app/src');
 
 const webpackOptions = {
     mode: env,
+    devtool: 'cheap-eval-source-map',
     entry: {
         
     },
